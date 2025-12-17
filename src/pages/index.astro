@@ -1,11 +1,36 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import Layout from "../layouts/Layout.astro";
+import CandidateDashboard from "../components/CandidateDashboard";
+import "../styles/global.css"; // Asegúrate de que esta ruta sea correcta
 ---
 
-<Layout>
-	<Welcome />
+<Layout title="Intrare - Talento Sin Fronteras">
+  <main class="w-full min-h-screen">
+    <header class="w-full p-6 md:p-12">
+      <div class="flex items-center justify-between mb-8">
+        <div class="flex items-center gap-3">
+          <div
+            class="w-10 h-10 bg-indigo-600 rounded-lg flex items-center justify-center text-white font-bold"
+          >
+            I
+          </div>
+          <div>
+            <h1
+              class="text-3xl font-extrabold tracking-tight"
+              style="color: var(--text-primary);"
+            >
+              Portal de Candidatos
+            </h1>
+            <p class="text-lg mt-1" style="color: var(--text-secondary);">
+              Visualización de perfiles.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <section class="animate-in fade-in duration-700">
+        <CandidateDashboard client:load />
+      </section>
+    </header>
+  </main>
 </Layout>
