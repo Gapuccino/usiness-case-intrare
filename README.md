@@ -1,4 +1,4 @@
-# Portal de Candidatos - Intrare
+P# Portal de Candidatos - Intrare
 
 > **Página de visualización y filtrado de candidatos con búsqueda inclusiva, modo oscuro y accesibilidad mejorada.**
 
@@ -63,7 +63,7 @@ Muestra todos los campos requeridos:
 - Indicador de talento global 🌍
 - Fecha de registro
 
-### 2. **Filtros Inclusivos**
+### 2. **Filtros**
 
 - **Rol:** Dropdown para filtrar por puesto
 - **Documentación:** Estado de completitud (sin barreras discriminatorias)
