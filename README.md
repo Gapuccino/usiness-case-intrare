@@ -1,20 +1,20 @@
-P# Portal de Candidatos - Intrare
+Portal de Candidatos - Intrare
 
 > **Página de visualización y filtrado de candidatos con búsqueda inclusiva, modo oscuro y accesibilidad mejorada.**
 
-## 🎯 Descripción
+Descripción:
 
 Portal funcional para visualizar y filtrar candidatos según diferentes atributos. Implementa los requerimientos del business case con mejoras significativas en inclusividad, accesibilidad y experiencia de usuario.
 
 **Características principales:**
 
-- ✅ Listado de 30 candidatos precargados
-- ✅ Filtros dinámicos por rol, documentación y experiencia
-- ✅ Ordenamiento por fecha y experiencia
-- ✅ Tema claro/oscuro con transiciones suaves
-- ✅ Diseño responsivo y accesible
-- ✅ Manejo completo de estados (Loading, Empty, Error)
-- ✅ Búsqueda inclusiva sin sesgos discriminatorios
+- Listado de 30 candidatos precargados
+- Filtros dinámicos por rol, documentación y experiencia
+- Ordenamiento por fecha y experiencia
+- Tema claro/oscuro con transiciones suaves
+- Diseño responsivo y accesible
+- Manejo completo de estados (Loading, Empty, Error)
+- Búsqueda inclusiva sin sesgos discriminatorios
 
 ---
 
@@ -50,7 +50,7 @@ npm run preview
 
 ---
 
-## 📋 Características Implementadas
+Características Implementadas:
 
 ### 1. **Lista de Candidatos**
 
@@ -60,7 +60,7 @@ Muestra todos los campos requeridos:
 - Rol (Ventas, Atención al Cliente, Operaciones)
 - Años de experiencia
 - Estado de documentación (Completa / En proceso)
-- Indicador de talento global 🌍
+- Indicador de talento global 
 - Fecha de registro
 
 ### 2. **Filtros**
@@ -72,9 +72,9 @@ Muestra todos los campos requeridos:
 
 ### 3. **Estados de UI**
 
-- ⏳ **Loading:** 800ms simulando carga real
-- 📋 **Lista Vacía:** Mensaje claro cuando no hay coincidencias
-- ❌ **Error:** Manejo completo de errores con botón "Reintentar"
+- **Loading:** 800ms simulando carga real
+- **Lista Vacía:** Mensaje claro cuando no hay coincidencias
+- **Error:** Manejo completo de errores con botón "Reintentar"
 
 ### 4. **Tema Claro/Oscuro**
 
@@ -93,7 +93,7 @@ Muestra todos los campos requeridos:
 
 ---
 
-## 🛠️ Stack Tecnológico
+##  Stack Tecnológico
 
 | Tecnología        | Propósito                |
 | ----------------- | ------------------------ |
@@ -122,7 +122,7 @@ src/
 
 ---
 
-## 🧪 Testing
+## Testing
 
 Para probar los diferentes estados de la aplicación, consulta [TESTING_GUIDE.md](./TESTING_GUIDE.md)
 
@@ -134,7 +134,7 @@ Para probar los diferentes estados de la aplicación, consulta [TESTING_GUIDE.md
 
 ---
 
-## 💡 Mejoras Implementadas
+##  Mejoras Implementadas
 
 Además de los requerimientos del business case, se agregaron:
 
@@ -146,20 +146,20 @@ Además de los requerimientos del business case, se agregaron:
 
 ### **Diseño**
 
-- 🎨 Sistema de temas con CSS variables
-- 📱 Diseño responsive (mobile-first)
-- ✨ Transiciones suaves y pulidas
-- 🔘 Dropdowns mejorados con ícono personalizado
+- Sistema de temas con CSS variables
+- Diseño responsive (mobile-first)
+- Transiciones suaves y pulidas
+- Dropdowns mejorados con ícono personalizado
 
 ### **Performance**
 
-- ⚡ useMemo para filtrado eficiente
-- 📦 Bundle optimizado con Astro
-- 🎯 Zero JavaScript en la página base
+-  useMemo para filtrado eficiente
+-  Bundle optimizado con Astro
+-  Zero JavaScript en la página base
 
 ---
 
-## 📊 Datos de Ejemplo
+##  Datos de Ejemplo
 
 La aplicación incluye 30 candidatos con:
 
@@ -184,31 +184,6 @@ La aplicación incluye 30 candidatos con:
 ```
 
 ---
-
-## 🎓 Para la Presentación
-
-### Demo (10 minutos)
-
-1. **Intro (1 min):** "Portal de candidatos inclusivo"
-2. **Filtrado (2 min):** Mostrar filtros en acción + orden por experiencia
-3. **Tema oscuro (1 min):** Toggle y transiciones suaves
-4. **Estados UI (2 min):** Loading, lista vacía, error
-5. **Accesibilidad (1 min):** ARIA labels, contraste, navegación
-6. **Arquitectura (2 min):** Por qué Astro + React + CSS variables
-7. **Q&A (1 min):** Preguntas
-
-### Puntos clave
-
-- ✅ Cumple 100% del business case
-- ✅ Código limpio y bien estructurado
-- ✅ Mejoras en inclusividad y UX
-- ✅ Manejo completo de errores
-- ✅ Accesibilidad incorporada
-- ✅ Listo para escalar
-
----
-
-## 📝 Notas de Desarrollo
 
 ### Variables CSS Disponibles
 
